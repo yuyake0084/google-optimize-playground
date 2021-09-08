@@ -20,6 +20,7 @@ class MyDocument extends Document {
           {!isProd && (
             <Fragment>
               <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
+              <script src={`https://www.googleoptimize.com/optimize.js?id=${OPTIMIZE_CONTAINER_ID}`} />
               <script
                 dangerouslySetInnerHTML={{
                   __html: `
