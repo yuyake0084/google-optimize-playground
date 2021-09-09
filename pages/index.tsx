@@ -16,7 +16,14 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <button className={styles.button}>TEST</button>
+        <button
+          className={styles.button}
+          onClick={(e) => {
+            e.preventDefault()
+
+            console.log('default')
+          }}
+        >TEST</button>
       </main>
     </div>
   )
