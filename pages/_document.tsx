@@ -12,8 +12,6 @@ class MyDocument extends Document {
     const { NODE_ENV, GA_TRACKING_ID, OPTIMIZE_CONTAINER_ID  } = process.env
     const isProd = NODE_ENV === 'production';
 
-    console.log(GA_TRACKING_ID)
-
     return (
       <Html>
         <Head>
