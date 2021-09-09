@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 
 import styles from '../styles/Home.module.css'
-import { ABTest } from './ABTest'
+import { ABTest } from '../components/ABTest'
 
 const Home: NextPage = () => {
 
