@@ -1,5 +1,5 @@
 export const A = () => (
   <div>
-    AAA
+    Contents A!
   </div>
 )

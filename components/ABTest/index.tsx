@@ -1,5 +1,6 @@
 import useGoogleOptimize from '@react-hook/google-optimize'
 
+import styles from '../../styles/ABTest.module.css'
 import { A } from './A'
 import { B } from './B'
 import { C } from './C'
@@ -12,7 +13,9 @@ export const ABTest = () => {
     [A, B, C],
   )
 
-  console.log('experimentId', experimentId)
-
-  return !ContentsVariant ? <Default /> : <ContentsVariant />
+  return (
+    <div className={styles.container}>
+      {!ContentsVariant ? <Default /> : <ContentsVariant />}
+    </div>
+  )
 }
