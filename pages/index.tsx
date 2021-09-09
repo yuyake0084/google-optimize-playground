@@ -1,8 +1,11 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+
 import styles from '../styles/Home.module.css'
+import { ABTest } from './ABTest'
 
 const Home: NextPage = () => {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -23,7 +26,11 @@ const Home: NextPage = () => {
 
             console.log('default')
           }}
-        >TEST</button>
+        >
+          TEST
+        </button>
+
+        <ABTest />
       </main>
     </div>
   )

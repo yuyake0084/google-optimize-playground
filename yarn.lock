@@ -206,10 +206,22 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@react-hook/google-optimize@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@react-hook/google-optimize/-/google-optimize-1.2.1.tgz#918e848b215f540be4a2b0acf4a1b82596184a9b"
+  integrity sha512-KGWF81Do50DyiPTR7XYDLwMqh6z72L5doEIhvzme6ous55tPCVx7a6whVsd1f4Fyr/9uWai9WlZQq5M5+x5MNw==
+  dependencies:
+    "@types/gtag.js" "^0.0.3"
+
 "@rushstack/eslint-patch@^1.0.6":
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.0.6.tgz#023d72a5c4531b4ce204528971700a78a85a0c50"
   integrity sha512-Myxw//kzromB9yWgS8qYGuGVf91oBUUJpNvy5eM50sqvmKLbKjwLxohJnkWGTeeI9v9IBMtPLxz5Gc60FIfvCA==
+
+"@types/gtag.js@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@types/gtag.js/-/gtag.js-0.0.3.tgz#bbc414030b2143fc7874260ab825aac82c42928e"
+  integrity sha512-iRF/4Q3G1t0OTNMjK52tpGSQPgEsYzWQL1IdVXt9BywK6MUK3ypB7LaoEQa8sW9gPXENoU1xAyCxqJhMkB2rCA==
 
 "@types/json5@^0.0.29":
   version "0.0.29"
