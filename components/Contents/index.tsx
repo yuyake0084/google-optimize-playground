@@ -1,12 +1,12 @@
 import useGoogleOptimize from '@react-hook/google-optimize'
 
-import styles from '../../styles/ABTest.module.css'
+import styles from '../../styles/Contents.module.css'
 import { A } from './A'
 import { B } from './B'
 import { C } from './C'
 import { Default } from './Default'
 
-export const ABTest = () => {
+export const Contents = () => {
   const experimentId = process.env.NEXT_PUBLIC_EXPERIMENT_ID ?? ''
   const ContentsVariant = useGoogleOptimize(
     experimentId,

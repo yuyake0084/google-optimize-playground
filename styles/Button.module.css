@@ -1,0 +1,38 @@
+.buttonA {
+  display: block;
+  margin-top: 30px;
+  appearance: none;
+  padding: 12px 32px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 32px;
+  cursor: pointer;
+  background-color: #0070f3;
+}
+
+.buttonB {
+  display: block;
+  margin-top: 30px;
+  appearance: none;
+  padding: 12px 32px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 32px;
+  cursor: pointer;
+  background-color: rgb(255, 169, 169);
+}
+
+.buttonC {
+  display: block;
+  margin-top: 30px;
+  appearance: none;
+  padding: 12px 32px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 32px;
+  cursor: pointer;
+  background-color: #7ddaa6;
+}

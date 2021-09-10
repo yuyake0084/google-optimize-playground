@@ -2,7 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 
 import styles from '../styles/Home.module.css'
-import { ABTest } from '../components/ABTest'
+import { Button } from '../components/Button'
+import { Contents } from '../components/Contents'
 
 const Home: NextPage = () => {
 
@@ -19,18 +20,8 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <button
-          className={styles.button}
-          onClick={(e) => {
-            e.preventDefault()
-
-            console.log('default')
-          }}
-        >
-          TEST
-        </button>
-
-        <ABTest />
+        <Button />
+        <Contents />
       </main>
     </div>
   )
