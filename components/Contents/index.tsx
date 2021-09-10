@@ -13,6 +13,8 @@ export const Contents = () => {
     [A, B, C],
   )
 
+  console.log(ContentsVariant)
+
   return (
     <div className={styles.container}>
       {!ContentsVariant ? <Default /> : <ContentsVariant />}
